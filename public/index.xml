@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ndless Apps</title>
+    <link>localhost:1313/</link>
+    <description>Recent content on Ndless Apps</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 04 Sep 2023 00:28:39 -0600</lastBuildDate><atom:link href="localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PocketSNES</title>
+      <link>localhost:1313/projects/pocketsnes/</link>
+      <pubDate>Mon, 04 Sep 2023 00:28:39 -0600</pubDate>
+      
+      <guid>localhost:1313/projects/pocketsnes/</guid>
+      <description>Emulate SNES games on your calculator!</description>
+    </item>
+    
+    <item>
+      <title>nClock</title>
+      <link>localhost:1313/projects/nclock/</link>
+      <pubDate>Mon, 04 Sep 2023 00:24:02 -0600</pubDate>
+      
+      <guid>localhost:1313/projects/nclock/</guid>
+      <description>Shows a clock in the status bar</description>
+    </item>
+    
+    <item>
+      <title>Khicas</title>
+      <link>localhost:1313/projects/khicas/</link>
+      <pubDate>Mon, 04 Sep 2023 00:21:02 -0600</pubDate>
+      
+      <guid>localhost:1313/projects/khicas/</guid>
+      <description>GIAC/Xcas port, CAS system</description>
+    </item>
+    
+    <item>
+      <title>Pokemini</title>
+      <link>localhost:1313/projects/pokemini/</link>
+      <pubDate>Mon, 04 Sep 2023 00:19:22 -0600</pubDate>
+      
+      <guid>localhost:1313/projects/pokemini/</guid>
+      <description>PokeMini Emulator designed to run on TI-Nspire.</description>
+    </item>
+    
+    <item>
+      <title>gpSP-NSpire</title>
+      <link>localhost:1313/projects/gpspnspire/</link>
+      <pubDate>Mon, 04 Sep 2023 00:15:58 -0600</pubDate>
+      
+      <guid>localhost:1313/projects/gpspnspire/</guid>
+      <description>Gameboy Advanced Emulator for TI-Nspire</description>
+    </item>
+    
+    <item>
+      <title>nPDF</title>
+      <link>localhost:1313/projects/npdf/</link>
+      <pubDate>Mon, 04 Sep 2023 00:12:34 -0600</pubDate>
+      
+      <guid>localhost:1313/projects/npdf/</guid>
+      <description>A app designed to view PDFs on your TI-Nspire.</description>
+    </item>
+    
+    <item>
+      <title>MicroPython</title>
+      <link>localhost:1313/projects/micropython/</link>
+      <pubDate>Mon, 04 Sep 2023 00:10:00 -0600</pubDate>
+      
+      <guid>localhost:1313/projects/micropython/</guid>
+      <description>A TI-Nspire port of the scripting language.</description>
+    </item>
+    
+    <item>
+      <title>nQuake</title>
+      <link>localhost:1313/projects/nquake/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost:1313/projects/nquake/</guid>
+      <description>Quake for the TI-Nspire.</description>
+    </item>
+    
+  </channel>
+</rss>

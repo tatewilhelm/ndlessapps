@@ -3,6 +3,17 @@
     <p>Discover a wide range of Ndless projects for TI-Nspire.</p>
     
     <p>Email t8wilhelm(at)gmail(dot)com to suggest additions or edits to this page.</p>
+
+    <div class="filter-section">
+        <label>
+            <input type="checkbox" id="filterClassic"> Classic
+        </label>
+        <label>
+            <input type="checkbox" id="filterCX"> CX / CX II
+        </label>
+        <input type="text" id="searchBar" placeholder="Search...">
+    </div>
+
     <h3>All Projects:</h3>
     {{ range .Site.RegularPages }}
         <div class="project-box">
@@ -10,18 +21,11 @@
             <img src="{{ .Params.image }}" alt="{{ .Title }} Image" class="project-image">
             {{ end }}
             <div class="project-content">
-                {{ if .Params.image }}
-                <div style="text-align: center;">
+                <div class="{{ if not .Params.image }}margin-left{{ end }}" style="text-align: center;">
                     <h3 class="project-title">{{ .Title }}</h3>
                     <p class="project-description">{{ .Summary }}</p>
                 </div>
-                {{ end }}
-                {{ if not .Params.image}}
-                <div style="text-align: center;margin-left: 4rem;">
-                    <h3 class="project-title">{{ .Title }}</h3>
-                    <p class="project-description">{{ .Summary }}</p>
-                </div>
-                {{ end}}
+                
                 <div class="project-links">
                     
                     {{ if in .Params.compatibility "Classic" }}
@@ -41,3 +45,4 @@
         </div>
     {{ end }}
 {{ end }}
+

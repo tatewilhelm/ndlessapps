@@ -76,15 +76,6 @@ a:hover {
     width: 100%;
 }
 
-.project-title, .project-description {
-    text-align: center;
-}
-
-
-.margin-left {
-    margin-left: 4rem;
-}
-
 
 .project-description {
     flex: 1;
@@ -169,55 +160,4 @@ a:hover {
         justify-content: space-between;
         width: 100%;
     }
-}
-
-/* Filter Section */
-.filter-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 0;
-    border-bottom: 1px solid #e0e0e0;
-    margin-bottom: 1rem;
-    background-color: #f7f7f7;
-}
-
-.filter-section label {
-    margin-right: 1rem;
-    display: flex;
-    align-items: center;
-}
-
-.filter-section input[type="checkbox"] {
-    margin-right: 0.5rem;
-}
-
-.filter-section input[type="text"] {
-    padding: 0.5rem;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    flex-grow: 2;
-    max-width: 300px;
-}
-
-/* Mobile adjustments */
-@media (max-width: 768px) {
-    .filter-section {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .filter-section input[type="text"] {
-        margin-top: 1rem;
-        width: 100%;
-        max-width: none;
-
-    }
-
-    .filter-section input[type="checkbox"] {
-        text-align: center;
-    }
-    
-
 }
