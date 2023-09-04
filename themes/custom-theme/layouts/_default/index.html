@@ -1,0 +1,43 @@
+{{ define "main" }}
+    <h2>Welcome to Ndless Apps Index</h2>
+    <p>Discover a wide range of Ndless projects for TI-Nspire.</p>
+    
+    <p>Email t8wilhelm(at)gmail(dot)com to suggest additions or edits to this page.</p>
+    <h3>All Projects:</h3>
+    {{ range .Site.RegularPages }}
+        <div class="project-box">
+            {{ if .Params.image }}
+            <img src="{{ .Params.image }}" alt="{{ .Title }} Image" class="project-image">
+            {{ end }}
+            <div class="project-content">
+                {{ if .Params.image }}
+                <div style="text-align: center;">
+                    <h3 class="project-title">{{ .Title }}</h3>
+                    <p class="project-description">{{ .Summary }}</p>
+                </div>
+                {{ end }}
+                {{ if not .Params.image}}
+                <div style="text-align: center;margin-left: 4rem;">
+                    <h3 class="project-title">{{ .Title }}</h3>
+                    <p class="project-description">{{ .Summary }}</p>
+                </div>
+                {{ end}}
+                <div class="project-links">
+                    
+                    {{ if in .Params.compatibility "Classic" }}
+                        <a class="available">Classic</a>
+                    {{ else }}
+                        <a class="unavailable">Classic</a>
+                    {{ end }}
+                    
+                    {{ if in .Params.compatibility "CX" }}
+                        <a class="available">CX / CX II</a>
+                    {{ else }}
+                        <a class="unavailable">CX / CX II</a>
+                    {{ end }}
+                    <a href="{{ .Params.downloadLink }}" target="_blank" class="go-to-project">Go to Project</a>
+                </div>
+            </div>
+        </div>
+    {{ end }}
+{{ end }}

@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #ffffff;
+    color: #333;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+footer {
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    padding: 1rem 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 0.5rem 0;
+}
+
+a {
+    color: #007acc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.project-box {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.project-image {
+    flex: 0 0 100px;
+    width: 320px;
+    height: 240px;
+    object-fit: cover;
+    margin-right: 3rem;
+}
+
+.project-title {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.project-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+
+.project-description {
+    flex: 1;
+    margin-right: 2rem;
+}
+
+.project-links {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.available {
+    display: block; /* This will make the links stack vertically */
+    margin-bottom: 0.5rem; /* Add some space between the links */
+    color: #007acc;
+    text-decoration: none;
+}
+
+.available:hover {
+    text-decoration: none;
+}
+
+.unavailable {
+    display: block; /* This will make the links stack vertically */
+    margin-bottom: 0.5rem; /* Add some space between the links */
+    color: #cc0000;
+    text-decoration: none;
+}
+
+.unavailable:hover {
+    text-decoration: none;
+}
+
+
+
+.go-to-project {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #007acc;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.go-to-project:hover {
+    background-color: #005a8e;
+}
