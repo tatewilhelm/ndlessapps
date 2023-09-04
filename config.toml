@@ -1,4 +1,4 @@
-baseURL = 'http://ndlessapps.com/'
+baseURL = 'http://ndlessapps.org/'
 languageCode = 'en-us'
 title = 'Ndless Apps'
 theme = "custom-theme"
